@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <header id="header" class="grid-item nested-header">
+        <div class="grid-item grid-item-logo">
+          <div class="item-nav-1" id="logo">
+            <img
+                id="header-img"
+              src="img/trombon_dibujo-1.png"
+              alt="imagen de un trombon"
+              title="Trombón"
+            />
+            <span class="letraLogotipo">Original Trombones</span>
+          </div>
+        </div>
+        <div class="grid-item grid-item-nav">
+          <nav 
+          class="item-nav-2" 
+          id="nav-bar">
+            <ul class="ul-2">
+              <li>
+                  <a href="#features" class="nav-link">Features</a>
+                </li>
+              <li>
+                  <a href="#how-it-works">How It Works</a>
+                </li>
+              <li>
+                  <a href="#pricing">Pricing</a>
+                </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="grid-item">
+        <span><h2>Handcrafted, home-made masterpieces</h2></spanp>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" class="formulario">
+            
+            <input type="email" id="email" placeholder="Enter your email address" name="email" required>
+            <br>
+            <input type="submit" id="submit" value="Get Started" required>
+        </form>
+      </div>
+      <div class="grid-item nested" id="features">
+        <div class="grid-item">
+            <i class="fas fa-fire" aria-hidden="true">
+            </i>
+        </div>
+        <div class="grid-item">
+            <div class="losTextos"> <h3>Premium Materials</h3>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</div>
+        </div>
+        <div class="grid-item">
+            <i class="fas fa fa-truck"></i>
+        </div>
+        <div class="grid-item">
+            <div class="losTextos"> <h3>Fast Shipping</h3>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</div>
+        </div>
+        <div class="grid-item">
+            <i class="fa fa fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="grid-item">
+            <div class="losTextos"> <h3>Quality Assurance</h3>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</div>
+        </div>
+      </div>
+
+      <div class="grid-item" id="how-it-works">
+        <iframe id="video" width="682" height="384" src="https://www.youtube.com/embed/m03hLeewfh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="grid-item nested-02" id="pricing">
+
+        <div class="grid-item precios">
+            <div id="trombon-tipo">TENOR TROMBONE</div>
+            <div id="precio-tipo">$600</div>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn-select">SELECT</button>
+        </div>
+
+        <div class="grid-item precios">
+            <div id="trombon-tipo">BASS TROMBONE</div>
+            <div id="precio-tipo">$900</div>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn-select">SELECT</button>
+        </div>
+
+        <div class="grid-item precios">
+            <div id="trombon-tipo">VALVE TROMBONE</div>
+            <div id="precio-tipo">$1200</div>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn-select">SELECT</button>
+        </div>
+            
+      </div>
+
+      <footer class="grid-item footer">
+        <div id="ul-footer">
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+        <div>
+        <p id="footer-parrafo">
+            Copyright 2020, Original Trombones
+        </p>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Script Testeo FreeCodeCamp -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
